@@ -19,4 +19,20 @@ public class ItemCarrinho {
         this.qtd = qtd;
         this.valorTotal = p.getValor().multiply(BigDecimal.valueOf(qtd));
     }
+
+	public Long getId() {
+		return id;
+	}
+
+	public Perfume getPerfume() {
+		return perfume;
+	}
+
+	public Integer getQtd() {
+		return qtd;
+	}
+
+	public BigDecimal getValorTotal() {
+		return valorTotal;
+	}
 }
